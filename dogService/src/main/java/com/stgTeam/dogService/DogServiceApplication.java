@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DogServiceApplication {
-//test home에서 고쳐
+//test home에서 고쳐 커밋할게요
 	public static void main(String[] args) {
 		SpringApplication.run(DogServiceApplication.class, args);
 	}
