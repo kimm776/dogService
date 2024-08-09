@@ -1,0 +1,13 @@
+config
+
+목적:
+애플리케이션의 설정 및 구성 관련 코드를 포함합니다. 이 폴더에서는 보안, 데이터베이스, CORS, 스케줄러 등 다양한 설정 클래스들을 관리합니다.
+
+구조:
+설정 클래스: 예를 들어 SecurityConfig, DatabaseConfig, SwaggerConfig 같은 클래스들이 위치합니다.
+
+파일:
+SecurityConfig.java: 보안 설정 관련 클래스.
+DatabaseConfig.java: 데이터베이스 연결 설정.
+WebConfig.java: 웹 관련 설정 (CORS, ViewResolver 등).
+기타 설정 관련 클래스들.

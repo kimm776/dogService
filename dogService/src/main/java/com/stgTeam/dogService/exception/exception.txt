@@ -1,0 +1,13 @@
+exception
+
+목적:
+애플리케이션에서 발생할 수 있는 예외를 처리하는 클래스들을 포함합니다.
+사용자 정의 예외 클래스와 예외 처리기(Exception Handler)를 정의합니다.
+
+구조:
+예외 클래스: 특정 예외 상황을 처리하기 위한 사용자 정의 예외 클래스들이 포함됩니다.
+
+파일:
+CustomException.java: 사용자 정의 예외 클래스.
+GlobalExceptionHandler.java: 애플리케이션 전역에서 발생하는 예외를 처리하는 클래스.
+ResourceNotFoundException.java: 리소스가 발견되지 않았을 때 던지는 예외 클래스.
